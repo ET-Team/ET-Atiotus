@@ -1,0 +1,20 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2854",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Modpack_Name",
+  "version": "1.0.0",
+  "author": "Dummy",
+  "files": [
+    
+  ],
+  "overrides": "src"
+}
