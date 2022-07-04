@@ -1,5 +1,5 @@
 # ET-Atiotus
-ET-Atiotus is a mega-hybird modpack with fully modified contents! The modpack starts with choosing from three vastly different planet, yet all of them could bring you most fresh experience of Minecraft ever!
+ET-Atiotus is a mega-hybird modpack with fully modified contents! The modpack starts with choosing from three vastly different planets, yet all of them could bring you most fresh experience of Minecraft ever! Beginning from a startup company, you will build your own factory on the exotic planet and grow in capitals, eventually ensuring a monopoly amoung the galaxy!
 
 The modpack is currently in WIP status.
 # 玄理：星肆
