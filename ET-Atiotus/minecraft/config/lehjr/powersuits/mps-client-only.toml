@@ -1,0 +1,23 @@
+
+#HUD settings
+[HUD]
+	#Use Graphical Meters
+	useGraphicalMeters = true
+	#Chat message when toggling module
+	toggleModuleSpam = false
+	#Display HUD
+	keybind_HUD_on = true
+	#x position
+	#Range: 0.0 ~ 1.7976931348623157E308
+	keybindHUDx = 8.0
+	#x position
+	#Range: 0.0 ~ 1.7976931348623157E308
+	keybindHUDy = 32.0
+	#Use a 24h clock instead of 12h
+	use24hClock = false
+
+#General settings
+[General]
+	#Allow Conflicting Keybinds
+	allowConflictingKeybinds = true
+

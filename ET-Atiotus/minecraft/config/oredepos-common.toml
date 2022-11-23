@@ -1,0 +1,572 @@
+
+[Deposits]
+
+	[Deposits."Short Distance"]
+		#How many blocks from spawn is short distance stops
+		#Range: > 0
+		shortDistance = 1000
+		#How many blocks are at least in a short distance deposit
+		#Range: > 0
+		leastShortDistance = 100
+		#How many blocks are at most in a short distance deposit
+		#Range: > 0
+		mostShortDistance = 200
+
+	[Deposits."Medium Distance"]
+		#How many blocks from spawn is medium distance stops
+		#Range: > 0
+		mediumDistance = 10000
+		#How many blocks are at least in a medium distance deposit
+		#Range: > 0
+		leastMediumDistance = 1000
+		#How many blocks are at most in a medium distance deposit
+		#Range: > 0
+		mostMediumDistance = 2000
+
+	[Deposits."Long Distance"]
+		#How many blocks from spawn long distance is at a maximum
+		#Range: > 0
+		longDistance = 100000
+		#How many blocks are at least in a long distance deposit
+		#Range: > 0
+		leastLongDistance = 10000
+		#How many blocks are at most in a long distance deposit
+		#Range: > 0
+		mostLongDistance = 20000
+		#If this setting is set long distance deposits increase in maximum size by most - least every 'longDistance' blocks
+		longDistanceIncreasesFurther = true
+
+	[Deposits."Ore Settings"]
+
+		[Deposits."Ore Settings".coal]
+			#Enable the generation of coal deposits
+			coalEnable = true
+			#Replace the base ore for the generation of coal deposits
+			coalReplace = false
+			#Factor for coal deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			coalFactor = 1.0
+			#Vein size of coal deposits
+			#Range: > 0
+			coalVeinSize = 17
+			#Minimum height of coal deposits
+			#Range: > 0
+			coalMinHeight = 1
+			#Maximum height of coal deposits
+			#Range: > 0
+			coalMaxHeight = 128
+			#Maximum count of coal deposits per chunk
+			#Range: > 0
+			coalCount = 20
+
+		[Deposits."Ore Settings".iron]
+			#Enable the generation of iron deposits
+			ironEnable = true
+			#Replace the base ore for the generation of iron deposits
+			ironReplace = false
+			#Factor for iron deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			ironFactor = 1.0
+			#Vein size of iron deposits
+			#Range: > 0
+			ironVeinSize = 9
+			#Minimum height of iron deposits
+			#Range: > 0
+			ironMinHeight = 1
+			#Maximum height of iron deposits
+			#Range: > 0
+			ironMaxHeight = 68
+			#Maximum count of iron deposits per chunk
+			#Range: > 0
+			ironCount = 20
+
+		[Deposits."Ore Settings".redstone]
+			#Enable the generation of redstone deposits
+			redstoneEnable = true
+			#Replace the base ore for the generation of redstone deposits
+			redstoneReplace = false
+			#Factor for redstone deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			redstoneFactor = 1.0
+			#Vein size of redstone deposits
+			#Range: > 0
+			redstoneVeinSize = 8
+			#Minimum height of redstone deposits
+			#Range: > 0
+			redstoneMinHeight = 1
+			#Maximum height of redstone deposits
+			#Range: > 0
+			redstoneMaxHeight = 16
+			#Maximum count of redstone deposits per chunk
+			#Range: > 0
+			redstoneCount = 8
+
+		[Deposits."Ore Settings".gold]
+			#Enable the generation of gold deposits
+			goldEnable = true
+			#Replace the base ore for the generation of gold deposits
+			goldReplace = false
+			#Factor for gold deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			goldFactor = 1.0
+			#Vein size of gold deposits
+			#Range: > 0
+			goldVeinSize = 9
+			#Minimum height of gold deposits
+			#Range: > 0
+			goldMinHeight = 1
+			#Maximum height of gold deposits
+			#Range: > 0
+			goldMaxHeight = 30
+			#Maximum count of gold deposits per chunk
+			#Range: > 0
+			goldCount = 5
+
+		[Deposits."Ore Settings".lapis]
+			#Enable the generation of lapis deposits
+			lapisEnable = true
+			#Replace the base ore for the generation of lapis deposits
+			lapisReplace = false
+			#Factor for lapis deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			lapisFactor = 1.0
+			#Vein size of lapis deposits
+			#Range: > 0
+			lapisVeinSize = 7
+			#Minimum height of lapis deposits
+			#Range: > 0
+			lapisMinHeight = 1
+			#Maximum height of lapis deposits
+			#Range: > 0
+			lapisMaxHeight = 34
+			#Maximum count of lapis deposits per chunk
+			#Range: > 0
+			lapisCount = 2
+
+		[Deposits."Ore Settings".diamond]
+			#Enable the generation of diamond deposits
+			diamondEnable = true
+			#Replace the base ore for the generation of diamond deposits
+			diamondReplace = false
+			#Factor for diamond deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			diamondFactor = 1.0
+			#Vein size of diamond deposits
+			#Range: > 0
+			diamondVeinSize = 8
+			#Minimum height of diamond deposits
+			#Range: > 0
+			diamondMinHeight = 1
+			#Maximum height of diamond deposits
+			#Range: > 0
+			diamondMaxHeight = 16
+			#Maximum count of diamond deposits per chunk
+			#Range: > 0
+			diamondCount = 1
+
+		[Deposits."Ore Settings".emerald]
+			#Enable the generation of emerald deposits
+			emeraldEnable = true
+			#Replace the base ore for the generation of emerald deposits
+			emeraldReplace = false
+			#Factor for emerald deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			emeraldFactor = 1.0
+			#Vein size of emerald deposits
+			#Range: > 0
+			emeraldVeinSize = 1
+			#Minimum height of emerald deposits
+			#Range: > 0
+			emeraldMinHeight = 1
+			#Maximum height of emerald deposits
+			#Range: > 0
+			emeraldMaxHeight = 33
+			#Maximum count of emerald deposits per chunk
+			#Range: > 0
+			emeraldCount = 1
+
+		[Deposits."Ore Settings".nether_quartz]
+			#Enable the generation of nether_quartz deposits
+			nether_quartzEnable = true
+			#Replace the base ore for the generation of nether_quartz deposits
+			nether_quartzReplace = false
+			#Factor for nether_quartz deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			nether_quartzFactor = 1.0
+			#Vein size of nether_quartz deposits
+			#Range: > 0
+			nether_quartzVeinSize = 18
+			#Minimum height of nether_quartz deposits
+			#Range: > 0
+			nether_quartzMinHeight = 1
+			#Maximum height of nether_quartz deposits
+			#Range: > 0
+			nether_quartzMaxHeight = 256
+			#Maximum count of nether_quartz deposits per chunk
+			#Range: > 0
+			nether_quartzCount = 20
+
+		[Deposits."Ore Settings".nether_gold]
+			#Enable the generation of nether_gold deposits
+			nether_goldEnable = true
+			#Replace the base ore for the generation of nether_gold deposits
+			nether_goldReplace = false
+			#Factor for nether_gold deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			nether_goldFactor = 1.0
+			#Vein size of nether_gold deposits
+			#Range: > 0
+			nether_goldVeinSize = 9
+			#Minimum height of nether_gold deposits
+			#Range: > 0
+			nether_goldMinHeight = 1
+			#Maximum height of nether_gold deposits
+			#Range: > 0
+			nether_goldMaxHeight = 256
+			#Maximum count of nether_gold deposits per chunk
+			#Range: > 0
+			nether_goldCount = 5
+
+		[Deposits."Ore Settings".ancient_debris]
+			#Enable the generation of ancient_debris deposits
+			ancient_debrisEnable = true
+			#Replace the base ore for the generation of ancient_debris deposits
+			ancient_debrisReplace = false
+			#Factor for ancient_debris deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			ancient_debrisFactor = 1.0
+			#Vein size of ancient_debris deposits
+			#Range: > 0
+			ancient_debrisVeinSize = 3
+			#Minimum height of ancient_debris deposits
+			#Range: > 0
+			ancient_debrisMinHeight = 8
+			#Maximum height of ancient_debris deposits
+			#Range: > 0
+			ancient_debrisMaxHeight = 128
+			#Maximum count of ancient_debris deposits per chunk
+			#Range: > 0
+			ancient_debrisCount = 1
+
+		[Deposits."Ore Settings".tin]
+			#Enable the generation of tin deposits
+			tinEnable = true
+			#Replace the base ore for the generation of tin deposits 
+			#This will generate tin ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			tinReplace = false
+			#Factor for tin deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			tinFactor = 1.0
+			#Vein size of tin deposits
+			#Range: > 0
+			tinVeinSize = 9
+			#Minimum height of tin deposits
+			#Range: > 0
+			tinMinHeight = 1
+			#Maximum height of tin deposits
+			#Range: > 0
+			tinMaxHeight = 68
+			#Maximum count of tin deposits per chunk
+			#Range: > 0
+			tinCount = 20
+
+		[Deposits."Ore Settings".copper]
+			#Enable the generation of copper deposits
+			copperEnable = true
+			#Replace the base ore for the generation of copper deposits 
+			#This will generate copper ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			copperReplace = false
+			#Factor for copper deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			copperFactor = 1.0
+			#Vein size of copper deposits
+			#Range: > 0
+			copperVeinSize = 9
+			#Minimum height of copper deposits
+			#Range: > 0
+			copperMinHeight = 1
+			#Maximum height of copper deposits
+			#Range: > 0
+			copperMaxHeight = 68
+			#Maximum count of copper deposits per chunk
+			#Range: > 0
+			copperCount = 20
+
+		[Deposits."Ore Settings".lead]
+			#Enable the generation of lead deposits
+			leadEnable = true
+			#Replace the base ore for the generation of lead deposits 
+			#This will generate lead ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			leadReplace = false
+			#Factor for lead deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			leadFactor = 1.0
+			#Vein size of lead deposits
+			#Range: > 0
+			leadVeinSize = 6
+			#Minimum height of lead deposits
+			#Range: > 0
+			leadMinHeight = 1
+			#Maximum height of lead deposits
+			#Range: > 0
+			leadMaxHeight = 35
+			#Maximum count of lead deposits per chunk
+			#Range: > 0
+			leadCount = 8
+
+		[Deposits."Ore Settings".silver]
+			#Enable the generation of silver deposits
+			silverEnable = true
+			#Replace the base ore for the generation of silver deposits 
+			#This will generate silver ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			silverReplace = false
+			#Factor for silver deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			silverFactor = 1.0
+			#Vein size of silver deposits
+			#Range: > 0
+			silverVeinSize = 6
+			#Minimum height of silver deposits
+			#Range: > 0
+			silverMinHeight = 1
+			#Maximum height of silver deposits
+			#Range: > 0
+			silverMaxHeight = 35
+			#Maximum count of silver deposits per chunk
+			#Range: > 0
+			silverCount = 8
+
+		[Deposits."Ore Settings".aluminum]
+			#Enable the generation of aluminum deposits
+			aluminumEnable = true
+			#Replace the base ore for the generation of aluminum deposits 
+			#This will generate aluminum ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			aluminumReplace = false
+			#Factor for aluminum deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			aluminumFactor = 1.0
+			#Vein size of aluminum deposits
+			#Range: > 0
+			aluminumVeinSize = 6
+			#Minimum height of aluminum deposits
+			#Range: > 0
+			aluminumMinHeight = 1
+			#Maximum height of aluminum deposits
+			#Range: > 0
+			aluminumMaxHeight = 64
+			#Maximum count of aluminum deposits per chunk
+			#Range: > 0
+			aluminumCount = 12
+
+		[Deposits."Ore Settings".uranium]
+			#Enable the generation of uranium deposits
+			uraniumEnable = true
+			#Replace the base ore for the generation of uranium deposits 
+			#This will generate uranium ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			uraniumReplace = false
+			#Factor for uranium deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			uraniumFactor = 1.0
+			#Vein size of uranium deposits
+			#Range: > 0
+			uraniumVeinSize = 2
+			#Minimum height of uranium deposits
+			#Range: > 0
+			uraniumMinHeight = 1
+			#Maximum height of uranium deposits
+			#Range: > 0
+			uraniumMaxHeight = 64
+			#Maximum count of uranium deposits per chunk
+			#Range: > 0
+			uraniumCount = 4
+
+		[Deposits."Ore Settings".nickel]
+			#Enable the generation of nickel deposits
+			nickelEnable = true
+			#Replace the base ore for the generation of nickel deposits 
+			#This will generate nickel ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			nickelReplace = false
+			#Factor for nickel deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			nickelFactor = 1.0
+			#Vein size of nickel deposits
+			#Range: > 0
+			nickelVeinSize = 5
+			#Minimum height of nickel deposits
+			#Range: > 0
+			nickelMinHeight = 1
+			#Maximum height of nickel deposits
+			#Range: > 0
+			nickelMaxHeight = 20
+			#Maximum count of nickel deposits per chunk
+			#Range: > 0
+			nickelCount = 5
+
+		[Deposits."Ore Settings".zinc]
+			#Enable the generation of zinc deposits
+			zincEnable = true
+			#Replace the base ore for the generation of zinc deposits 
+			#This will generate zinc ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			zincReplace = false
+			#Factor for zinc deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			zincFactor = 1.0
+			#Vein size of zinc deposits
+			#Range: > 0
+			zincVeinSize = 14
+			#Minimum height of zinc deposits
+			#Range: > 0
+			zincMinHeight = 15
+			#Maximum height of zinc deposits
+			#Range: > 0
+			zincMaxHeight = 70
+			#Maximum count of zinc deposits per chunk
+			#Range: > 0
+			zincCount = 4
+
+		[Deposits."Ore Settings".certus_quartz]
+			#Enable the generation of certus_quartz deposits
+			certus_quartzEnable = false
+			#Replace the base ore for the generation of certus_quartz deposits 
+			#This will generate certus_quartz ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			certus_quartzReplace = false
+			#Factor for certus_quartz deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			certus_quartzFactor = 1.0
+			#Vein size of certus_quartz deposits
+			#Range: > 0
+			certus_quartzVeinSize = 4
+			#Minimum height of certus_quartz deposits
+			#Range: > 0
+			certus_quartzMinHeight = 12
+			#Maximum height of certus_quartz deposits
+			#Range: > 0
+			certus_quartzMaxHeight = 74
+			#Maximum count of certus_quartz deposits per chunk
+			#Range: > 0
+			certus_quartzCount = 4
+
+		[Deposits."Ore Settings".sulfur]
+			#Enable the generation of sulfur deposits
+			sulfurEnable = true
+			#Replace the base ore for the generation of sulfur deposits 
+			#This will generate sulfur ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			sulfurReplace = false
+			#Factor for sulfur deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			sulfurFactor = 1.0
+			#Vein size of sulfur deposits
+			#Range: > 0
+			sulfurVeinSize = 6
+			#Minimum height of sulfur deposits
+			#Range: > 0
+			sulfurMinHeight = 1
+			#Maximum height of sulfur deposits
+			#Range: > 0
+			sulfurMaxHeight = 128
+			#Maximum count of sulfur deposits per chunk
+			#Range: > 0
+			sulfurCount = 10
+
+		[Deposits."Ore Settings".osmium]
+			#Enable the generation of osmium deposits
+			osmiumEnable = false
+			#Replace the base ore for the generation of osmium deposits 
+			#This will generate osmium ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			osmiumReplace = false
+			#Factor for osmium deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			osmiumFactor = 1.0
+			#Vein size of osmium deposits
+			#Range: > 0
+			osmiumVeinSize = 8
+			#Minimum height of osmium deposits
+			#Range: > 0
+			osmiumMinHeight = 1
+			#Maximum height of osmium deposits
+			#Range: > 0
+			osmiumMaxHeight = 36
+			#Maximum count of osmium deposits per chunk
+			#Range: > 0
+			osmiumCount = 8
+
+		[Deposits."Ore Settings".ardite]
+			#Enable the generation of ardite deposits
+			arditeEnable = false
+			#Replace the base ore for the generation of ardite deposits 
+			#This will generate ardite ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			arditeReplace = false
+			#Factor for ardite deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			arditeFactor = 1.0
+			#Vein size of ardite deposits
+			#Range: > 0
+			arditeVeinSize = 6
+			#Minimum height of ardite deposits
+			#Range: > 0
+			arditeMinHeight = 90
+			#Maximum height of ardite deposits
+			#Range: > 0
+			arditeMaxHeight = 128
+			#Maximum count of ardite deposits per chunk
+			#Range: > 0
+			arditeCount = 3
+
+		[Deposits."Ore Settings".cobalt]
+			#Enable the generation of cobalt deposits
+			cobaltEnable = false
+			#Replace the base ore for the generation of cobalt deposits 
+			#This will generate cobalt ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			cobaltReplace = false
+			#Factor for cobalt deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			cobaltFactor = 1.0
+			#Vein size of cobalt deposits
+			#Range: > 0
+			cobaltVeinSize = 6
+			#Minimum height of cobalt deposits
+			#Range: > 0
+			cobaltMinHeight = 90
+			#Maximum height of cobalt deposits
+			#Range: > 0
+			cobaltMaxHeight = 128
+			#Maximum count of cobalt deposits per chunk
+			#Range: > 0
+			cobaltCount = 3
+
+		[Deposits."Ore Settings".platinum]
+			#Enable the generation of platinum deposits
+			platinumEnable = false
+			#Replace the base ore for the generation of platinum deposits 
+			#This will generate platinum ore (according to the deposit's parameters) and then replace it
+			#To make this more efficient the ore configuration is also used to get the min and max height for the ore to replace!
+			platinumReplace = false
+			#Factor for platinum deposit size
+			#Range: 0.0 ~ 3.4028234663852886E38
+			platinumFactor = 1.0
+			#Vein size of platinum deposits
+			#Range: > 0
+			platinumVeinSize = 1
+			#Minimum height of platinum deposits
+			#Range: > 0
+			platinumMinHeight = 1
+			#Maximum height of platinum deposits
+			#Range: > 0
+			platinumMaxHeight = 64
+			#Maximum count of platinum deposits per chunk
+			#Range: > 0
+			platinumCount = 1
+

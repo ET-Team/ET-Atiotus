@@ -1,0 +1,49 @@
+
+["Machine Options"]
+	#If using the Crank without meaning, what chould be the chance it snaps? Higher number means lower chance. Set to -1 to disable snapping completely.
+	crankSnapChance = 100
+	#Interact Mode (in the Interactor block) can cause issues with intercompatability with some mods. Do you want this mode enabled?
+	interactorInteractMode = true
+	#Should Interact Mode (in the Interactor block) fail with an exception, what type of logging should be performed?
+	#Allowed Values: NONE, BASIC, COMPLETE
+	interactorInteractDebug = "BASIC"
+
+	#What fluids should be valid for use in the Geothermal Generator?
+	[["Machine Options".geothermalFluids]]
+		fluid = "minecraft:lava"
+		value = 115000
+
+	[["Machine Options".geothermalFluids]]
+		fluid = "assemblylinemachines:naphtha"
+		value = 350000
+
+	#What fluids should be valid for use in the Combustion Generator?
+	[["Machine Options".combustionFluids]]
+		fluid = "assemblylinemachines:gasoline"
+		value = 600000
+
+	[["Machine Options".combustionFluids]]
+		fluid = "assemblylinemachines:diesel"
+		value = 1050000
+
+	#What fluids should be valid for use as coolant in various Generators? Value is multiplier on burn time.
+	[["Machine Options".coolantFluids]]
+		fluid = "minecraft:water"
+		value = 2
+
+	[["Machine Options".coolantFluids]]
+		fluid = "assemblylinemachines:condensed_void"
+		value = 4
+
+[World]
+	#Should Mystium Farmland get exhausted over time and stop performing grow operations?
+	mystiumFarmlandDeath = true
+
+[Miscellaneous]
+	#Are you cool?
+	coolDudeMode = false
+	#If JEI is installed, should support be enabled?
+	jeiSupport = true
+	#Should the update check message be sent when a player joins a single-player world/the SMP server?
+	updateChecker = true
+

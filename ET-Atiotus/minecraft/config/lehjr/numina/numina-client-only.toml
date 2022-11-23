@@ -1,0 +1,18 @@
+
+#General Settings
+[General]
+	#Ignore speed boosts for field of view
+	useFOVFix = true
+	#Use FOV Fix to normalize FOV changes
+	useFOVNormalize = true
+	#Default state of FOVfix on login (enabled = true, disabled = false)
+	fovFixDefaultState = true
+	#Use sounds
+	useSounds = true
+
+["Development Settings"]
+	#Enable debugging info
+	enableDebugging = false
+	#Draw spacers used in GUIs
+	drawSpacers = false
+
