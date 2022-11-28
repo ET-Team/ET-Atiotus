@@ -6,39 +6,5 @@
 	title: "商店 - T0权限"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [
-		{
-			title: "初来乍到"
-			icon: "minecraft:grass_block"
-			x: -16.5d
-			y: -1.5d
-			id: "3356B20D77C512CF"
-			tasks: [{
-				id: "23163C39823A8658"
-				type: "checkmark"
-			}]
-		}
-		{
-			x: -14.0d
-			y: -3.0d
-			dependencies: ["3356B20D77C512CF"]
-			id: "07CEA5C8F890C483"
-			tasks: [{
-				id: "2791D4FFDFD9AF0F"
-				type: "checkmark"
-				title: "行商"
-			}]
-		}
-		{
-			x: -14.0d
-			y: 0.0d
-			dependencies: ["3356B20D77C512CF"]
-			id: "55D5CAB89D00DD3B"
-			tasks: [{
-				id: "6B098AA020C43E22"
-				type: "checkmark"
-				title: "研究员"
-			}]
-		}
-	]
+	quests: [ ]
 }

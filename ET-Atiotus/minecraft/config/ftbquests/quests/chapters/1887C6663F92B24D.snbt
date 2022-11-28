@@ -6,5 +6,42 @@
 	title: "初来乍到"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -12.0d
+			y: -0.5d
+			id: "49665051D86F543B"
+			tasks: [{
+				id: "38D0C9006BDCA5D4"
+				type: "checkmark"
+				title: "初来乍到"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			shape: "pentagon"
+			dependencies: ["49665051D86F543B"]
+			incompatible: ["6A5F57AFA5245CA1"]
+			id: "3764B092B80B4517"
+			tasks: [{
+				id: "2087E779F448A49E"
+				type: "checkmark"
+				title: "行商"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			shape: "pentagon"
+			dependencies: ["49665051D86F543B"]
+			incompatible: ["3764B092B80B4517"]
+			id: "6A5F57AFA5245CA1"
+			tasks: [{
+				id: "1EB30AF25220A783"
+				type: "checkmark"
+				title: "研究员"
+			}]
+		}
+	]
 }
