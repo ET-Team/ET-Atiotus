@@ -78,7 +78,7 @@
 			ironMaxHeight = 68
 			#Maximum count of iron deposits per chunk
 			#Range: > 0
-			ironCount = 2
+			ironCount = 4
 
 		[Deposits."Ore Settings".redstone]
 			#Enable the generation of redstone deposits

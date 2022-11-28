@@ -22,6 +22,7 @@
 			y: -1.5d
 			shape: "pentagon"
 			dependencies: ["49665051D86F543B"]
+			repeatable: true
 			incompatible: ["6A5F57AFA5245CA1"]
 			id: "3764B092B80B4517"
 			tasks: [{
@@ -42,6 +43,32 @@
 				type: "checkmark"
 				title: "研究员"
 			}]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			repeatable: true
+			id: "6F9D2DA1CAC250CE"
+			tasks: [{
+				id: "3E8E0E9CBC8CCAA4"
+				type: "questsadditions:break"
+				block_type: 0
+				block: "minecraft:dirt"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "340599B32D8D835A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07C2288E0B08FD5A"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+				}
+			]
 		}
 	]
 }
