@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "location": "eta:redstone",
+  "traits": {
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 80,
+        "y": 142,
+        "autoIO": false,
+        "tC": 1000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 21,
+      "y": 65,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 128,
+        "y": 87,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 37,
+        "y": 82,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "piston",
+        "isGlobal": true,
+        "type": "geo",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelName": "organic_extractor",
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "modelName": "organic_extractor",
+        "type": "geo",
+        "postRenderer": false
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "B@B",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "BBB",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "BBB",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:sheetmetal_copper"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "eta:redstone",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:sheetmetal_aluminum"
+          }
+        ],
+        "type": "blocks",
+        "disableRenderFormed": true
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ]
+    }
+  }
+}
