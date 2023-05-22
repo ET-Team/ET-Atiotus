@@ -1,0 +1,38 @@
+{
+  "name": "3b80dd6f-0a66-4543-b125-b59444d7943d",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "13d84796-c005-46e9-9787-8ea109bc69a7",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "location": "eta:redstone",
   "traits": {
     "fluid": [
@@ -63,26 +63,15 @@
   "status": {
     "unformed": {
       "renderer": {
-        "modelName": "piston",
-        "isGlobal": true,
+        "modelName": "organic_extractor",
         "type": "geo",
         "postRenderer": false
       }
     },
     "idle": {
-      "renderer": {
-        "modelName": "organic_extractor",
-        "type": "geo",
-        "postRenderer": false
-      },
       "parent": "unformed"
     },
     "working": {
-      "renderer": {
-        "modelName": "organic_extractor",
-        "type": "geo",
-        "postRenderer": false
-      },
       "parent": "idle"
     },
     "suspend": {

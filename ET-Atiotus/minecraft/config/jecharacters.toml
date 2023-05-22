@@ -1,7 +1,7 @@
 
 [General]
 	#Keyboard for the checker to use
-	#Allowed Values: QUANPIN, DAQIAN, XIAOHE, ZIRANMA
+	#Allowed Values: QUANPIN, DAQIAN, XIAOHE, ZIRANMA, SOUGOU, GUOBIAO, MICROSOFT, PINYINPP, ZIGUANG
 	enumKeyboard = "QUANPIN"
 	#Set to true to enable fuzzy spelling zh <=> z
 	enableFZh2z = false

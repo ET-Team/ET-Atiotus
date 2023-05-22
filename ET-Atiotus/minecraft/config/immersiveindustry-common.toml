@@ -1,0 +1,13 @@
+#Range: 0 ~ 4096
+ElectrolyzerBaseTickEnergy = 32
+#Range: 0 ~ 4096
+RotaryKilnBaseTickEnergy = 32
+#Range: > 0
+CrucibleBurntime = 800
+#Range: 0 ~ 4096
+CarKilnBaseTickEnergy = 64
+#Range: 0 ~ 4096
+SteamTurbineGenerator = 1024
+#Range: 0.0 ~ 96000.0
+ElectrodeCost = 0.25
+

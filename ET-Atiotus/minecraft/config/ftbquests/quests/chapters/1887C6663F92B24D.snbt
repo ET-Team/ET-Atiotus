@@ -18,44 +18,12 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -1.5d
-			shape: "pentagon"
-			dependencies: ["49665051D86F543B"]
-			repeatable: true
-			incompatible: ["6A5F57AFA5245CA1"]
-			id: "3764B092B80B4517"
-			tasks: [{
-				id: "2087E779F448A49E"
-				type: "checkmark"
-				title: "行商"
-			}]
-		}
-		{
-			x: -10.0d
-			y: 0.5d
-			shape: "pentagon"
-			dependencies: ["49665051D86F543B"]
-			incompatible: ["3764B092B80B4517"]
-			id: "6A5F57AFA5245CA1"
-			tasks: [{
-				id: "1EB30AF25220A783"
-				type: "checkmark"
-				title: "研究员"
-			}]
-		}
-		{
 			x: -12.0d
 			y: -3.0d
-			repeatable: true
 			id: "6F9D2DA1CAC250CE"
 			tasks: [{
 				id: "3E8E0E9CBC8CCAA4"
-				type: "questsadditions:break"
-				block_type: 0
-				block: "minecraft:dirt"
-				value: 1L
-				checkItem: false
+				type: "custom"
 			}]
 			rewards: [
 				{

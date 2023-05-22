@@ -1,0 +1,129 @@
+{
+  "version": 2,
+  "location": "eta:smelting_furnace",
+  "traits": {
+    "background": "multiblocked:textures/gui/test.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "input",
+        "x": 21,
+        "y": 62,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "output",
+        "x": 120,
+        "y": 62,
+        "autoIO": false
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 58,
+      "y": 34,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/progress_bar/progress_bar_arc_furnace.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "smelting_furnace",
+        "type": "geo",
+        "postRenderer": false
+      },
+      "shape": [
+        [
+          0.0,
+          0.5,
+          0.20000000298023224,
+          1.2000000476837158,
+          2.0,
+          1.0
+        ]
+      ]
+    },
+    "idle": {
+      "parent": "unformed",
+      "sound": {
+        "sound": "multiblocked:empty",
+        "loop": false,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "3b80dd6f-0a66-4543-b125-b59444d7943d",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "eta:smelting_furnace",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

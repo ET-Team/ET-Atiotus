@@ -1,9 +1,11 @@
-~ Saved With Hammer Lib 16.3.30
+~ Saved With Hammer Lib 16.4.32
 
 # List of all the recipes that Solar Flux adds.
 # Defaulted to true, but you may disable any of the recipes listed.
 # After you're done changing, you may apply the code right away, using /reload command
 +C:recipes={
+  +B:solarflux:ae2/energy_upgrade=true
+
   +B:solarflux:blank_upgrade=true
 
   +B:solarflux:blazing_coating=true

@@ -1,7 +1,5 @@
 
 [general]
-	#If set to FALSE, support for sewing recipes will not be enabled regardless of the mod's presence.
-	disableAnvilUpgrading = false
 	#If AUTO, the crafting and upgrade recipes will use the Sewing mechanics if the Sewing Kit mod is present. Off disables anvil upgrading regardless.
 	#Allowed Values: OFF, AUTO, ON
 	anvilUpgrading = "AUTO"
@@ -11,4 +9,6 @@
 	#If AUTO, the belt slot will be disabled if Curios is present. If OFF, the belt slot will be disabled permanently.
 	#Allowed Values: OFF, AUTO, ON
 	customBeltSlotMode = "ON"
+	#If set to FALSE, support for sewing recipes will not be enabled regardless of the mod's presence.
+	enableSewingKitSupport = true
 
