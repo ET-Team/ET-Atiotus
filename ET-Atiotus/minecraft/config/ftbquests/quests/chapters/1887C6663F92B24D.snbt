@@ -6,37 +6,14 @@
 	title: "初来乍到"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [
-		{
-			x: -12.0d
-			y: -0.5d
-			id: "49665051D86F543B"
-			tasks: [{
-				id: "38D0C9006BDCA5D4"
-				type: "checkmark"
-				title: "初来乍到"
-			}]
-		}
-		{
-			x: -12.0d
-			y: -3.0d
-			id: "6F9D2DA1CAC250CE"
-			tasks: [{
-				id: "3E8E0E9CBC8CCAA4"
-				type: "custom"
-			}]
-			rewards: [
-				{
-					id: "340599B32D8D835A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "07C2288E0B08FD5A"
-					type: "item"
-					item: "minecraft:coarse_dirt"
-				}
-			]
-		}
-	]
+	quests: [{
+		x: -12.0d
+		y: -0.5d
+		id: "49665051D86F543B"
+		tasks: [{
+			id: "38D0C9006BDCA5D4"
+			type: "checkmark"
+			title: "初来乍到"
+		}]
+	}]
 }
