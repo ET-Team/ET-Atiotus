@@ -1,0 +1,283 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 24, 2023 9:50:42 AM
+
+#oredepos:mining/uranium_ore_deposit
+- #forge:sulfuric_acid
+
+#forge:oxygen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:biodiesel
+- pneumaticcraft:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:uranium_hexafluoride
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+
+#forge:hydrogen
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+
+#minecraft:oil_byproduct
+- assemblylinemachines:diesel
+- assemblylinemachines:diesel_flowing
+- assemblylinemachines:gasoline
+- assemblylinemachines:gasoline_flowing
+- assemblylinemachines:diesel
+- assemblylinemachines:diesel_flowing
+- assemblylinemachines:gasoline
+- assemblylinemachines:gasoline_flowing
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+
+#minecraft:oil
+- assemblylinemachines:oil
+- assemblylinemachines:oil_flowing
+- assemblylinemachines:oil
+- assemblylinemachines:oil_flowing
+
+#forge:superheated_sodium
+- biggerreactors:superheated_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+
+#minecraft:condensed_void
+- assemblylinemachines:condensed_void
+- assemblylinemachines:condensed_void_flowing
+- assemblylinemachines:condensed_void
+- assemblylinemachines:condensed_void_flowing
+
+#forge:steam
+- advgenerators:steam
+- biggerreactors:fluid_irradiated_steam
+- mekanism:steam
+- mekanism:flowing_steam
+
+#forge:experience
+- sophisticatedbackpacks:xp_still
+- pneumaticcraft:memory_essence
+- cofh_core:experience
+
+#forge:glowstone
+- thermal:glowstone
+
+#forge:lithium
+- mekanism:lithium
+- mekanism:flowing_lithium
+
+#forge:diesel
+- pneumaticcraft:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#minecraft:liquid_experience
+- assemblylinemachines:liquid_experience
+- assemblylinemachines:liquid_experience_flowing
+- assemblylinemachines:liquid_experience
+- assemblylinemachines:liquid_experience_flowing
+
+#forge:drill_fuel
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:biodiesel
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid
+
+#forge:kerosene
+- pneumaticcraft:kerosene
+
+#forge:bioethanol
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+
+#minecraft:naphtha
+- assemblylinemachines:naphtha
+- assemblylinemachines:naphtha_flowing
+- assemblylinemachines:naphtha
+- assemblylinemachines:naphtha_flowing
+
+#forge:creosote
+- thermal:creosote
+- immersiveengineering:creosote
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane
+
+#forge:heavy_water
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+
+#forge:lpg
+- pneumaticcraft:lpg
+
+#forge:lubricant
+- pneumaticcraft:lubricant
+- immersivepetroleum:lubricant
+
+#forge:crude_oil
+- pneumaticcraft:oil
+- immersivepetroleum:oil
+- thermal:crude_oil
+
+#forge:redstone
+- thermal:redstone
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:tritium
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethene
+- mekanism:ethene
+- mekanism:flowing_ethene
+
+#forge:ethanol
+- pneumaticcraft:ethanol
+- immersiveengineering:ethanol
+
+#forge:uranium_oxide
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+
+#forge:chlorine
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+
+#forge:sodium
+- mekanism:sodium
+- mekanism:flowing_sodium
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- cofh_core:potion
+- immersiveengineering:potion
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
+#forge:sulfuric_acid
+- oredepos:sulfuric_acid_fluid
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+
+#forge:gasoline
+- pneumaticcraft:gasoline
+- immersivepetroleum:gasoline
+
+#forge:ender
+- thermal:ender
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+
+#forge:deuterium
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+
+#forge:brine
+- mekanism:brine
+- mekanism:flowing_brine
+
+#forge:latex
+- thermal:latex
+
+#forge:honey
+- cofh_core:honey
+
+#create:no_infinite_draining
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+- mekanism:ethene
+- mekanism:flowing_ethene
+- mekanism:sodium
+- mekanism:flowing_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+- mekanism:brine
+- mekanism:flowing_brine
+- mekanism:lithium
+- mekanism:flowing_lithium
+- mekanism:steam
+- mekanism:flowing_steam
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+
+#forge:napalm
+- immersivepetroleum:napalm
