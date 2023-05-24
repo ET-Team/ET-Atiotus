@@ -8,7 +8,7 @@ function drillingAlgoFactory(oreId){
     
         if(block.id != oreId || event.hand != 'MAIN_HAND'){
             return
-        }
+        }   
     
         var visited = new Map()
         var toVisit = []

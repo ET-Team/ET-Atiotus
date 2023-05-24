@@ -3,17 +3,183 @@
 	group: "50924735E95E559E"
 	order_index: 0
 	filename: "1887C6663F92B24D"
-	title: "初来乍到"
+	title: "叶莲娜， 醉游者"
+	icon: "farmersdelight:apple_cider"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -12.0d
-		y: -0.5d
-		id: "49665051D86F543B"
-		tasks: [{
-			id: "38D0C9006BDCA5D4"
-			type: "checkmark"
-			title: "初来乍到"
-		}]
-	}]
+	quests: [
+		{
+			title: "开端"
+			x: -4.0d
+			y: -11.0d
+			description: ["Yelena:\"哟，又一个星球土著连接上了星际高速网络？...等等，为什么你的终端是未知版本的，难道你不是通过银河系高速网路的随机逸散链接进来的？\""]
+			id: "2072099453432507"
+			tasks: [{
+				id: "60E23DB3469473E2"
+				type: "checkmark"
+				title: "呃...这都是什么意思？"
+			}]
+		}
+		{
+			title: "开端2"
+			x: -4.0d
+			y: -9.5d
+			description: [
+				"叶莲娜：“ *叹气* 看来还是一个蒙昧无知的土著，看在我今天多喝了两杯半人马α星特产炽焰之吻的份上就给你讲讲吧。”"
+				""
+				"叶莲娜：“你现在正在访问的是跨河系星际网络，在二十五个纪元前由尊敬的灵能飞升者暨宇宙的守序者建立，旨在链接本超星系团的所有文明与星球意识。而银河系高速网路是两个纪元以前的大工程了，施工路上为了让更多的文明通网，施工队文明往千亿计个存在文明迹象的星球播撒了移动终端。”"
+				""
+				" 叶莲娜：“看来你的星球也是其中一个，没什么事我就先走了，你还挺走运的，只有近一百光年内有另外一个终端或者基站你这种连T0权限都没有的终端才能连的上Awi-Fi”"
+			]
+			dependencies: ["2072099453432507"]
+			hide: true
+			id: "5174D26B729641A5"
+			tasks: [{
+				id: "45CB75D870EC93D9"
+				type: "checkmark"
+				title: "等等！"
+			}]
+		}
+		{
+			title: "开端3"
+			x: -4.0d
+			y: -8.0d
+			description: [
+				"叶莲娜：“啊？等什么...哦！ 我懂了，你的意思是你要向我炒...朝贡对不对！ 我可对古典学颇有研究*沾沾自喜*”"
+				""
+				"叶莲娜：“好吧！ 那本高等公民兼文明启迪者就先等你收集好本地土特产再走吧，（小声）如果能有烈酒就最好了。”"
+			]
+			dependencies: ["5174D26B729641A5"]
+			hide: true
+			id: "5680F77C82DCD8DD"
+			tasks: [{
+				id: "303292404334DA57"
+				type: "checkmark"
+				title: "好吧，不过你得留在附近，否则我随时就会断网"
+			}]
+		}
+		{
+			title: "诱人酒香"
+			x: -5.0d
+			y: -6.5d
+			description: ["叶莲娜：“哇，这是苹果酒！跟蓝星产的一模一样！这放回去估计要100通用币一杯了...那这个就送给你了吧！ 希望以后你们不要再用文明个体来采掘矿物了，实在是太原始了。”"]
+			dependencies: ["5680F77C82DCD8DD"]
+			hide: true
+			id: "6BB012FDE4336B29"
+			tasks: [{
+				id: "0F3C1AE3C2538768"
+				type: "item"
+				item: "farmersdelight:apple_cider"
+			}]
+			rewards: [{
+				id: "3E343EBA7574BD0A"
+				type: "item"
+				item: "eta:portable_drill"
+			}]
+		}
+		{
+			title: "美味三明治"
+			icon: "culturaldelights:mutton_sandwich"
+			x: -3.0d
+			y: -6.5d
+			description: ["叶莲娜：“是三明治！？...这种食物我只在史书里见过描述！ 好吧，如果你能多带些不同种类的三明治过来，而且你的星球上也有最低级的通用能源，那也许我能提供些帮助你们文明的机器。”"]
+			dependencies: ["5680F77C82DCD8DD"]
+			id: "29185FF44F068A1B"
+			tasks: [
+				{
+					id: "3A08EA5C4484ACFA"
+					type: "item"
+					item: "culturaldelights:mutton_sandwich"
+				}
+				{
+					id: "280E608A7E64A8C2"
+					type: "item"
+					item: "farmersdelight:chicken_sandwich"
+				}
+				{
+					id: "5FEE0BEA4973388E"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+				}
+				{
+					id: "51C6EDA9301B2162"
+					type: "item"
+					secret: true
+					item: {
+						id: "deepresonance:resonating_crystal_natural"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								glowing: 0b
+								x: 0
+								y: 0
+								z: 0
+								id: "deepresonance:resonating_crystal"
+								Info: {
+									owner: ""
+									efficiency: 1.0d
+									powered: 0b
+									strength: 1.0d
+									purity: 0.0d
+									power: 0.0d
+								}
+							}
+						}
+					}
+					consume_items: false
+					match_nbt: false
+				}
+			]
+			rewards: [
+				{
+					id: "26820E75963D83BE"
+					type: "item"
+					item: "deepresonance:energy_collector"
+				}
+				{
+					id: "0019FD2F922BCD8C"
+					type: "item"
+					item: "deepresonance:generator_controller"
+				}
+				{
+					id: "5BAA0FC6DA826FEC"
+					type: "item"
+					item: "deepresonance:generator_part"
+				}
+			]
+		}
+		{
+			title: "矿石短缺1"
+			x: -4.0d
+			y: -5.0d
+			description: [
+				"叶莲娜：“害，好朋友，你这的特产不得不说是我见过生态星球里排前三的了，苹果酒和三明治比起源星的铁树梅汁配土豆棒一点不差！”"
+				""
+				"叶莲娜：“我差点忘了，你身上连一个钨钢板都掏不出来吧？ 我认识一个在附近做小生意的星际游商，就是我最近飞船上的铁矿储备不太够了，你知道的，我比较推崇在恒星旁边晒边来上一杯，不太喜欢去小行星带之类的地方挖那些低级矿石。我相信你会帮我的对吧？ 事成之后我绝对把你介绍给她，说到做到！”"
+			]
+			dependencies: [
+				"6BB012FDE4336B29"
+				"29185FF44F068A1B"
+			]
+			id: "6BCE251CABE117ED"
+			tasks: [{
+				id: "666C8A407E8AA5E4"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 64L
+			}]
+		}
+		{
+			title: "矿石短缺2"
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["6BCE251CABE117ED"]
+			id: "3D0044B0A4DB9F98"
+			tasks: [{
+				id: "3CA470738E427369"
+				type: "item"
+				item: "mekanism:copper_ore"
+			}]
+		}
+	]
 }
