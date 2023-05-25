@@ -104,7 +104,6 @@
 				{
 					id: "51C6EDA9301B2162"
 					type: "item"
-					secret: true
 					item: {
 						id: "deepresonance:resonating_crystal_natural"
 						Count: 1b
