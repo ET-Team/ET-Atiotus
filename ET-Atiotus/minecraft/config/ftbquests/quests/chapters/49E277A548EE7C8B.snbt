@@ -1,0 +1,144 @@
+{
+	id: "49E277A548EE7C8B"
+	group: "50924735E95E559E"
+	order_index: 1
+	filename: "49E277A548EE7C8B"
+	title: "露娜， 热忱的游商"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["6BCE251CABE117ED"]
+			id: "72D54B6764D85BE8"
+			tasks: [{
+				id: "039953CEA5BDD9EE"
+				type: "checkmark"
+				title: "游商"
+			}]
+		}
+		{
+			title: "不死族"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["72D54B6764D85BE8"]
+			id: "1BD306595F42A933"
+			tasks: [
+				{
+					id: "19A895E11F5E0C95"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "457EFCC8B9EAA000"
+					type: "item"
+					item: "minecraft:bone"
+				}
+			]
+		}
+		{
+			title: "生物特产"
+			x: 0.5d
+			y: 0.0d
+			description: ["（提示：仅需要提交任务需求中其中一项即可）"]
+			dependencies: ["72D54B6764D85BE8"]
+			min_required_tasks: 1
+			id: "5528B393E416B179"
+			tasks: [
+				{
+					id: "17E2CB0702FA04DE"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 16L
+				}
+				{
+					id: "608265A2368FD1DB"
+					type: "item"
+					item: "minecraft:egg"
+					count: 8L
+				}
+				{
+					id: "7B214571822DFF5A"
+					type: "item"
+					item: "environmental:yak_hair"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "3BF0A488F51782B1"
+				type: "item"
+				item: "eta:organic_extractor"
+			}]
+		}
+		{
+			title: "批量收购:T0生物质"
+			x: 2.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["5528B393E416B179"]
+			repeatable: true
+			id: "4B1684FB80AFE2E0"
+			tasks: [{
+				id: "604C64313828C604"
+				type: "item"
+				item: "kubejs:biomass_t0"
+				count: 64L
+			}]
+			rewards: [{
+				id: "5033EFD586D8F2CD"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			title: "大宗商品"
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["5528B393E416B179"]
+			id: "75AB1D85D0306B2E"
+			tasks: [{
+				id: "296A33A07A001D03"
+				type: "item"
+				item: "thermal:iron_plate"
+			}]
+		}
+		{
+			title: "电能传输"
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["75AB1D85D0306B2E"]
+			id: "2311C505C3762FD7"
+			tasks: [
+				{
+					id: "14169040443C4A02"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "4691DF63318B18D8"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "5B38AB151EA7A856"
+					type: "item"
+					item: "immersiveengineering:capacitor_lv"
+				}
+			]
+		}
+		{
+			title: "批量收购:铁板"
+			x: 2.5d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["75AB1D85D0306B2E"]
+			id: "32406EA1951CC272"
+			tasks: [{
+				id: "601D432E854F9C05"
+				type: "item"
+				item: "thermal:iron_plate"
+			}]
+		}
+	]
+}

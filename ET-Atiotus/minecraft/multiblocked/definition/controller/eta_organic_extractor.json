@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "location": "eta:redstone",
+  "location": "eta:organic_extractor",
   "traits": {
     "fluid": [
       {
