@@ -24,7 +24,6 @@ function drillingAlgoFactory(oreId){
                 visited.set(`${b.getPos()}`, 1)
                 toVisit.push(b)
             })
-            visited.forEach((a, b, c)=>console.log(`${a}:${b}`))
         }
     
         const newAmount = current.getEntityData().amount - 1 
