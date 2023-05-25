@@ -43,7 +43,6 @@
 			y: 0.0d
 			description: ["（提示：仅需要提交任务需求中其中一项即可）"]
 			dependencies: ["72D54B6764D85BE8"]
-			min_required_tasks: 1
 			id: "5528B393E416B179"
 			tasks: [
 				{
@@ -77,7 +76,6 @@
 			y: 0.0d
 			shape: "hexagon"
 			dependencies: ["5528B393E416B179"]
-			repeatable: true
 			id: "4B1684FB80AFE2E0"
 			tasks: [{
 				id: "604C64313828C604"
@@ -87,8 +85,7 @@
 			}]
 			rewards: [{
 				id: "5033EFD586D8F2CD"
-				type: "ftbmoney:money"
-				ftb_money: 50L
+				type: "custom"
 			}]
 		}
 		{
@@ -139,6 +136,39 @@
 				type: "item"
 				item: "thermal:iron_plate"
 			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			description: ["帮我收集点花吧！ 也不是很急， 找到就交给我吧， 不会亏待你的。"]
+			id: "0AE8FEEF6140EE95"
+			tasks: [
+				{
+					id: "5A74234BACA6E337"
+					type: "item"
+					item: "minecraft:cornflower"
+				}
+				{
+					id: "19A80C76091CDA58"
+					type: "item"
+					item: "biomesoplenty:wildflower"
+				}
+				{
+					id: "0FF7155194571555"
+					type: "item"
+					item: "biomesoplenty:glowflower"
+				}
+				{
+					id: "0C69DFA9B1C13BFA"
+					type: "item"
+					item: "byg:violet_leather_flower"
+				}
+				{
+					id: "1EF924D781D54605"
+					type: "item"
+					item: "byg:silver_vase_flower"
+				}
+			]
 		}
 	]
 }
