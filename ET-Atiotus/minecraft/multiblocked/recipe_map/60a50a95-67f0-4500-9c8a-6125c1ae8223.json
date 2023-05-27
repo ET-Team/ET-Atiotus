@@ -5,7 +5,7 @@
   "fuelThreshold": 100,
   "recipes": [
     {
-      "uid": "5375e1e7-954a-4db7-a6be-8b8fcf7d555b",
+      "uid": "AWDIOJ2981UIJ213KL",
       "duration": 20,
       "inputs": {
         "forge_energy": [
@@ -22,12 +22,24 @@
             "content": {
               "amount": 1,
               "matches": {
-                "item": "minecraft:iron_ingot"
+                "item": "immersiveengineering:ore_aluminum"
               }
             }
           }
         ]
-      }
+      },
+      "conditions": [
+        {
+          "type": "block",
+          "condition": {
+            "block": {
+              "id": "oredepos:aluminum_ore_deposit",
+              "meta": 0
+            },
+            "count": 1
+          }
+        }
+      ]
     }
   ]
 }

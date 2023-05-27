@@ -5,27 +5,28 @@
     "recipe_progress": {
       "cIO": 2,
       "gIO": 2,
-      "x": 55,
+      "x": 62,
       "y": 132,
       "width": 60,
       "height": 18,
       "texture": "multiblocked:textures/gui/energy_bar.png",
       "fillDirection": "LEFT_TO_RIGHT"
     },
+    "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
     "item": [
       {
-        "cIO": 1,
-        "gIO": 1,
-        "mIO": 1,
-        "x": 78,
-        "y": 65,
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 79,
+        "y": 71,
         "autoIO": false
       }
     ],
     "forge_energy": {
       "cIO": 2,
       "gIO": 2,
-      "x": 58,
+      "x": 107,
       "y": 7,
       "width": 60,
       "height": 18,
@@ -73,12 +74,13 @@
   "recipeMap": "portable_drill",
   "basePattern": {
     "structureDir": [
-      "LEFT",
+      "BACK",
       "UP",
-      "BACK"
+      "RIGHT"
     ],
     "pattern": [
       [
+        "A",
         "@"
       ]
     ],
@@ -89,26 +91,37 @@
       ]
     ],
     "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "oredepos:redstone_ore_deposit"
+          },
+          {
+            "id": "oredepos:coal_ore_deposit"
+          },
+          {
+            "id": "oredepos:certus_quartz_ore"
+          },
+          {
+            "id": "oredepos:lead_ore"
+          },
+          {
+            "id": "oredepos:aluminum_ore_deposit"
+          }
+        ],
+        "type": "blocks"
+      },
       "controller": {
         "location": "eta:portable_drill",
         "type": "component"
-      },
-      "air": {
-        "type": "air"
-      },
-      "any": {
-        "type": "any"
       }
     },
     "symbolMap": {
       "@": [
         "controller"
       ],
-      " ": [
-        "any"
-      ],
-      "-": [
-        "air"
+      "A": [
+        "A"
       ]
     }
   }
