@@ -4,28 +4,17 @@ let drillDef = MbdRegistry.getDefinition("eta:portable_drill");
 
 onEvent(`mbd.recipe_finish.${drillDef.getID()}`, event => {
     let recipeLogic = event.getRecipeLogic()
-    console.info("2")
     let controllerState = recipeLogic.controller.state
-    console.info("3")
     let kjsLevel = controllerState.world.asKJS()
-    
+
     let controllerContainer = kjsLevel.getBlock(controllerState.getPos())
-    console.info("4")
     let oreContainer = controllerContainer.getDown()
-    console.info("5")
     let oreID = oreContainer.id
-    console.info("6")
     let algo = drillingAlgoFactory(oreID)
     algo(oreContainer)
 })
 
 //BFS on orevein block
-
-//TEST
-onEvent('block.right_click', (event) => {
-    let func = drillingAlgoFactory('oredepos:aluminum_ore_deposit')
-    func(event.getBlock())
-})
 
 function drillingAlgoFactory(oreId){
     return (block) => {
