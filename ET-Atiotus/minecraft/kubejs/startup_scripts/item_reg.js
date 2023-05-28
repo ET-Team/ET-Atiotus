@@ -15,6 +15,6 @@ onEvent('item.registry', event => {
     ]
 
     plainItemNames.forEach((name) => {
-        event.create(name).group('atiotus').texture('eta:item/${name}')
+        event.create(name).group('atiotus').texture(`eta:item/${name}`)
     })
 })
