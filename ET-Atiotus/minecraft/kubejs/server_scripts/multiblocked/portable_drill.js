@@ -14,9 +14,20 @@ onEvent(`mbd.recipe_finish.${drillDef.getID()}`, event => {
     algo(oreContainer)
 })
 
+onEvent(`mbd.setup_recipe.${drillDef.getID()}`, event => {
+    let recipeLogic = event.getRecipeLogic();
+    let controllerState = recipeLogic.controller.state
+    let kjsLevel = controllerState.world.asKJS()
+    let oreContainer = kjsLevel.getBlock(controllerState.getPos()).getDown()
+    let oreID = oreContainer.id
+    if(oreContainer.getEntityData().amount <= 2 && getNeighborhood(oreContainer).filter((b) => b.id == oreID).length == 0){
+        event.cancel()
+    }
+})
+
 //BFS on orevein block
 
-function drillingAlgoFactory(oreId){
+function drillingAlgoFactory(oreID){
     return (block) => {
     
         var visited = new Map()
@@ -28,7 +39,7 @@ function drillingAlgoFactory(oreId){
         while(toVisit.length > 0){
             current = toVisit.shift()
             var neighborhood = getNeighborhood(current)
-            var toAdd = neighborhood.filter((blockContainer) => (blockContainer.id == oreId && visited.get(`${blockContainer.getPos()}`)!=1))
+            var toAdd = neighborhood.filter((blockContainer) => (blockContainer.id == oreID && visited.get(`${blockContainer.getPos()}`)!=1))
             toAdd.forEach((b) => {
                 visited.set(`${b.getPos()}`, 1)
                 toVisit.push(b)
