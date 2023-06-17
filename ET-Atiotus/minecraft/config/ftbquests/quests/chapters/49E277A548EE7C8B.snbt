@@ -4,6 +4,7 @@
 	order_index: 1
 	filename: "49E277A548EE7C8B"
 	title: "露娜， 热忱的游商"
+	icon: "byg:peach_leather_flower"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -138,8 +139,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 4.5d
+			x: -1.5d
+			y: 2.0d
 			description: ["帮我收集点花吧！ 也不是很急， 找到就交给我吧， 不会亏待你的。"]
 			id: "0AE8FEEF6140EE95"
 			tasks: [
@@ -169,6 +170,108 @@
 					item: "byg:silver_vase_flower"
 				}
 			]
+		}
+		{
+			title: "物流1"
+			x: -1.0d
+			y: 6.0d
+			id: "16E0D5F8CB5E7D88"
+			tasks: [{
+				id: "5F754546D7E4BE21"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			title: "物流2"
+			x: -1.0d
+			y: 8.0d
+			id: "63590962867BF6C0"
+			tasks: [{
+				id: "1E4DDF673616222F"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+		}
+		{
+			title: "热能提纯器"
+			x: 2.0d
+			y: 6.0d
+			id: "5124E9708F0B908A"
+			tasks: [{
+				id: "719E8C329FDF21B6"
+				type: "custom"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			id: "5D68574678A10D67"
+			tasks: [{
+				id: "244DC2ABB28FC4FB"
+				type: "custom"
+				title: "碳化生物质"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			id: "544DC5F132C93D90"
+			tasks: [{
+				id: "565B7703A5F23DAF"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.0d
+			id: "47ECDE19D421ECC5"
+			tasks: [{
+				id: "5B0055CEC305533D"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
+		}
+		{
+			title: "原始炼钢"
+			x: 4.0d
+			y: 10.0d
+			id: "4E9F2BA59B01867B"
+			tasks: [{
+				id: "00335F0D07D85F64"
+				type: "custom"
+			}]
+		}
+		{
+			title: "液化仪"
+			x: 2.0d
+			y: 10.0d
+			id: "55BDCDB04F706208"
+			tasks: [{
+				id: "2715AA5374A65087"
+				type: "custom"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 14.0d
+			id: "239878B8D489D585"
+			tasks: [{
+				id: "3238E8CCB58152DC"
+				type: "custom"
+				title: "罐装营养液（T0）"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.0d
+			id: "308566BEA6B3CA51"
+			tasks: [{
+				id: "6DA2C5037D478854"
+				type: "custom"
+				title: "装瓶器"
+			}]
 		}
 	]
 }

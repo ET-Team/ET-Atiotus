@@ -1,0 +1,20 @@
+{
+	id: "5DFD0B925011022D"
+	group: ""
+	order_index: 0
+	filename: "5DFD0B925011022D"
+	title: "终端: 奇异的绑定"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "公民之路"
+		x: 0.0d
+		y: 0.0d
+		id: "61344220C600F38E"
+		tasks: [{
+			id: "24772AD46B385B73"
+			type: "ftbmoney:money"
+			value: 4888L
+		}]
+	}]
+}
