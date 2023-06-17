@@ -39,6 +39,18 @@
 				item: "immersiveengineering:mold_plate"
 				buy: 50L
 			}
+			{
+				item: "deepresonance:generator_part"
+				buy: 100L
+			}
+			{
+				item: "deepresonance:generator_controller"
+				buy: 200L
+			}
+			{
+				item: "deepresonance:energy_collector"
+				buy: 158L
+			}
 		]
 	}]
 }
