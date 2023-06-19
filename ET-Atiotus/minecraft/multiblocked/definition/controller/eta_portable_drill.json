@@ -5,11 +5,11 @@
     "recipe_progress": {
       "cIO": 2,
       "gIO": 2,
-      "x": 62,
-      "y": 132,
+      "x": 31,
+      "y": 67,
       "width": 60,
-      "height": 18,
-      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "height": 30,
+      "texture": "multiblocked:textures/progress_bar/progress_bar_drill.png",
       "fillDirection": "LEFT_TO_RIGHT"
     },
     "background": "multiblocked:textures/gui/fluid_hatch_gui.png",
@@ -94,70 +94,70 @@
       "A": {
         "blocks": [
           {
-            "id":"oredepos:platinum_ore_deposit"
+            "id": "oredepos:platinum_ore_deposit"
           },
           {
-            "id":"redepos:cobalt_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:certus_quartz_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:zinc_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:nickel_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:uranium_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:aluminum_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:silver_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:lead_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:sulfur_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:ardite_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:redstone_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:coal_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:iron_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:gold_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:diamond_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:emerald_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:lapis_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:nether_quartz_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:nether_gold_ore_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:ancient_debris_deposit"
+            "id": "minecraft:air"
           },
           {
-          "id":"redepos:copper_ore_deposit"
+            "id": "minecraft:air"
           }
         ],
         "type": "blocks"

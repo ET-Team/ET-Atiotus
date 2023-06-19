@@ -7,6 +7,18 @@
 	icon: "farmersdelight:apple_cider"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -4.0d
+		y: -15.5d
+		width: 8.0d
+		height: 8.0d
+		rotation: 0.0d
+		image: "eta:textures/yelena_figure.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "开端"
@@ -170,8 +182,8 @@
 		}
 		{
 			title: "矿石短缺2"
-			x: -5.0d
-			y: -3.5d
+			x: -6.0d
+			y: -5.0d
 			dependencies: ["6BCE251CABE117ED"]
 			id: "3D0044B0A4DB9F98"
 			tasks: [{
@@ -179,6 +191,30 @@
 				type: "item"
 				item: "mekanism:copper_ore"
 			}]
+		}
+		{
+			title: "后备零件"
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["6BCE251CABE117ED"]
+			id: "5300A7660EAF8EC2"
+			tasks: [
+				{
+					id: "581A756B86A531E1"
+					type: "item"
+					item: "thermal:iron_gear"
+				}
+				{
+					id: "15A6CE94168FA5BD"
+					type: "item"
+					item: "immersiveengineering:stick_iron"
+				}
+				{
+					id: "346A92DD24924CD5"
+					type: "item"
+					item: "immersiveengineering:wire_copper"
+				}
+			]
 		}
 	]
 }
