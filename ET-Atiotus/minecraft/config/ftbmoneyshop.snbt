@@ -1,0 +1,56 @@
+{
+	tabs: [{
+		title: "T0"
+		icon: "kubejs:psionic_crystal_shard"
+		entries: [
+			{
+				item: "kubejs:biomass_t0"
+				buy: 10L
+			}
+			{
+				item: "thermal:tin_ingot"
+				buy: 2L
+			}
+			{
+				item: "minecraft:coal"
+				buy: 1L
+			}
+			{
+				item: "minecraft:iron_ingot"
+				buy: 1L
+			}
+			{
+				item: "thermal:copper_ingot"
+				buy: 2L
+			}
+			{
+				item: "minecraft:glass"
+				buy: 2L
+			}
+			{
+				item: "eta:portable_drill"
+				buy: 499L
+			}
+			{
+				item: "thermal:apatite"
+				buy: 1L
+			}
+			{
+				item: "immersiveengineering:mold_plate"
+				buy: 50L
+			}
+			{
+				item: "deepresonance:generator_part"
+				buy: 100L
+			}
+			{
+				item: "deepresonance:generator_controller"
+				buy: 200L
+			}
+			{
+				item: "deepresonance:energy_collector"
+				buy: 158L
+			}
+		]
+	}]
+}

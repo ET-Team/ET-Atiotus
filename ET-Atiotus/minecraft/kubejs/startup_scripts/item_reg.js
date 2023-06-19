@@ -11,7 +11,7 @@ onEvent('item.registry', event => {
         'biomass_t1',
         'biomass_t2',
         'biomass_t3',
-        'biomass_t4',
+        'biomass_t4'
     ]
 
     plainItemNames.forEach((name) => {

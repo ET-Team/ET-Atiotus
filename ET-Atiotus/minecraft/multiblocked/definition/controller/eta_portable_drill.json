@@ -94,19 +94,70 @@
       "A": {
         "blocks": [
           {
-            "id": "oredepos:redstone_ore_deposit"
+            "id":"oredepos:platinum_ore_deposit"
           },
           {
-            "id": "oredepos:coal_ore_deposit"
+            "id":"redepos:cobalt_ore_deposit"
           },
           {
-            "id": "oredepos:certus_quartz_ore"
+          "id":"redepos:certus_quartz_ore_deposit"
           },
           {
-            "id": "oredepos:lead_ore"
+          "id":"redepos:zinc_ore_deposit"
           },
           {
-            "id": "oredepos:aluminum_ore_deposit"
+          "id":"redepos:nickel_ore_deposit"
+          },
+          {
+          "id":"redepos:uranium_ore_deposit"
+          },
+          {
+          "id":"redepos:aluminum_ore_deposit"
+          },
+          {
+          "id":"redepos:silver_ore_deposit"
+          },
+          {
+          "id":"redepos:lead_ore_deposit"
+          },
+          {
+          "id":"redepos:sulfur_ore_deposit"
+          },
+          {
+          "id":"redepos:ardite_ore_deposit"
+          },
+          {
+          "id":"redepos:redstone_ore_deposit"
+          },
+          {
+          "id":"redepos:coal_ore_deposit"
+          },
+          {
+          "id":"redepos:iron_ore_deposit"
+          },
+          {
+          "id":"redepos:gold_ore_deposit"
+          },
+          {
+          "id":"redepos:diamond_ore_deposit"
+          },
+          {
+          "id":"redepos:emerald_ore_deposit"
+          },
+          {
+          "id":"redepos:lapis_ore_deposit"
+          },
+          {
+          "id":"redepos:nether_quartz_ore_deposit"
+          },
+          {
+          "id":"redepos:nether_gold_ore_deposit"
+          },
+          {
+          "id":"redepos:ancient_debris_deposit"
+          },
+          {
+          "id":"redepos:copper_ore_deposit"
           }
         ],
         "type": "blocks"
