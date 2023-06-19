@@ -26,7 +26,43 @@ onEvent('jei.hide.items', event => {
         'appliedenergistics2:certus_quartz_shovel',
         'appliedenergistics2:nether_quartz_shovel',
         'immersiveengineering:shovel_steel',
-        'byg:pendorite_shovel'
+        'byg:pendorite_shovel',
+
+        'immersiveengineering:ingot_copper',
+        'immersiveengineering:ingot_constantan',
+        'mekanism:ingot_bronze',
+        'mekanism:ingot_bronze',
+        'mekanism:ingot_copper',
+        'immersiveengineering:ingot_lead',
+        'immersiveengineering:ingot_silver',
+        'immersiveengineering:ingot_nickel',
+        'immersiveengineering:ingot_electrum',
+        'immersiveengineering:ingot_uranium',
+        'immersiveengineering:ingot_steel',
+        'immersiveengineering:ingot_lead',
+        'mekanism:ingot_tin',
+
+        'mekanism:copper_ore',
+        'mekanism:tin_ore',
+        'mekanism:lead_ore',
+        'immersiveengineering:ore_copper',
+        'immersiveengineering:ore_aluminum',
+        'immersiveengineering:ore_lead',
+        'immersiveengineering:ore_silver',
+        'immersiveengineering:ore_nickel',
+        'immersiveengineering:ore_uranium',
+        'immersiveengineering:ore_nickel',
+        'immersiveengineering:ore_silver',
+        'immersiveengineering:ore_lead',
+        'immersiveengineering:ore_uranium',
+        'immersiveengineering:ore_aluminum',
+        'immersiveengineering:ore_copper',
+        'mekanism:tin_ore',
+        'mekanism:copper_ore'
+    
+        
+
+
 
     ];
 

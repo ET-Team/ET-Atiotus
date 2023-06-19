@@ -25,7 +25,21 @@ onEvent('recipes', event => {
         'appliedenergistics2:certus_quartz_shovel',
         'appliedenergistics2:nether_quartz_shovel',
         'immersiveengineering:shovel_steel',
-        'byg:pendorite_shovel'
+        'byg:pendorite_shovel',
+
+        'immersiveengineering:ingot_copper',
+        'immersiveengineering:ingot_constantan',
+        'mekanism:ingot_bronze',
+        'mekanism:ingot_bronze',
+        'mekanism:ingot_copper',
+        'immersiveengineering:ingot_lead',
+        'immersiveengineering:ingot_silver',
+        'immersiveengineering:ingot_nickel',
+        'immersiveengineering:ingot_electrum',
+        'immersiveengineering:ingot_uranium',
+        'immersiveengineering:ingot_steel',
+        'immersiveengineering:ingot_lead',
+        'mekanism:ingot_tin'
 
     ];
 
