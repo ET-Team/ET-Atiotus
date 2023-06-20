@@ -7,6 +7,18 @@
 	icon: "byg:peach_leather_flower"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -0.5d
+		y: -6.5d
+		width: 8.0d
+		height: 8.0d
+		rotation: 0.0d
+		image: "eta:textures/luna_figure.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: -0.5d
@@ -175,6 +187,7 @@
 			title: "物流1"
 			x: -1.0d
 			y: 6.0d
+			dependencies: ["2311C505C3762FD7"]
 			id: "16E0D5F8CB5E7D88"
 			tasks: [{
 				id: "5F754546D7E4BE21"
@@ -186,6 +199,7 @@
 			title: "物流2"
 			x: -1.0d
 			y: 8.0d
+			dependencies: ["16E0D5F8CB5E7D88"]
 			id: "63590962867BF6C0"
 			tasks: [{
 				id: "1E4DDF673616222F"
@@ -197,6 +211,7 @@
 			title: "热能提纯器"
 			x: 2.0d
 			y: 6.0d
+			dependencies: ["2311C505C3762FD7"]
 			id: "5124E9708F0B908A"
 			tasks: [{
 				id: "719E8C329FDF21B6"
@@ -206,6 +221,7 @@
 		{
 			x: 2.0d
 			y: 8.0d
+			dependencies: ["5124E9708F0B908A"]
 			id: "5D68574678A10D67"
 			tasks: [{
 				id: "244DC2ABB28FC4FB"
@@ -215,7 +231,8 @@
 		}
 		{
 			x: 4.0d
-			y: 8.0d
+			y: 6.0d
+			dependencies: ["5124E9708F0B908A"]
 			id: "544DC5F132C93D90"
 			tasks: [{
 				id: "565B7703A5F23DAF"
@@ -225,7 +242,8 @@
 		}
 		{
 			x: 4.0d
-			y: 12.0d
+			y: 10.0d
+			dependencies: ["4E9F2BA59B01867B"]
 			id: "47ECDE19D421ECC5"
 			tasks: [{
 				id: "5B0055CEC305533D"
@@ -236,7 +254,8 @@
 		{
 			title: "原始炼钢"
 			x: 4.0d
-			y: 10.0d
+			y: 8.0d
+			dependencies: ["544DC5F132C93D90"]
 			id: "4E9F2BA59B01867B"
 			tasks: [{
 				id: "00335F0D07D85F64"
@@ -247,6 +266,7 @@
 			title: "液化仪"
 			x: 2.0d
 			y: 10.0d
+			dependencies: ["5D68574678A10D67"]
 			id: "55BDCDB04F706208"
 			tasks: [{
 				id: "2715AA5374A65087"
@@ -256,6 +276,7 @@
 		{
 			x: 2.0d
 			y: 14.0d
+			dependencies: ["308566BEA6B3CA51"]
 			id: "239878B8D489D585"
 			tasks: [{
 				id: "3238E8CCB58152DC"
@@ -266,6 +287,7 @@
 		{
 			x: 2.0d
 			y: 12.0d
+			dependencies: ["55BDCDB04F706208"]
 			id: "308566BEA6B3CA51"
 			tasks: [{
 				id: "6DA2C5037D478854"

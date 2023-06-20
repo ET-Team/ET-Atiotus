@@ -52,22 +52,18 @@
   "status": {
     "unformed": {
       "renderer": {
+        "modelLocation": "multiblocked:machine_core_yellow",
+        "type": "imodel",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "renderer": {
         "modelName": "smelting_furnace",
+        "isGlobal": true,
         "type": "geo",
         "postRenderer": false
       },
-      "shape": [
-        [
-          0.0,
-          0.5,
-          0.20000000298023224,
-          1.2000000476837158,
-          2.0,
-          1.0
-        ]
-      ]
-    },
-    "idle": {
       "parent": "unformed",
       "sound": {
         "sound": "multiblocked:empty",
