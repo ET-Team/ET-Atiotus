@@ -58,7 +58,12 @@ onEvent('jei.hide.items', event => {
         'immersiveengineering:ore_aluminum',
         'immersiveengineering:ore_copper',
         'mekanism:tin_ore',
-        'mekanism:copper_ore'
+        'mekanism:copper_ore',
+
+        'immersiveengineering:plate_gold',
+        'immersiveengineering:plate_iron',
+        'immersiveengineering:plate_iron',
+        'immersiveengineering:plate_silver'
     
         
 

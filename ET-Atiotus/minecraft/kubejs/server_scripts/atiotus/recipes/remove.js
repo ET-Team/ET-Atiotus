@@ -39,7 +39,19 @@ onEvent('recipes', event => {
         'immersiveengineering:ingot_uranium',
         'immersiveengineering:ingot_steel',
         'immersiveengineering:ingot_lead',
-        'mekanism:ingot_tin'
+        'mekanism:ingot_tin',
+
+        'immersiveengineering:plate_gold',
+        'immersiveengineering:plate_iron',
+        'immersiveengineering:plate_copper',
+        'immersiveengineering:plate_silver',
+
+        'thermal:iron_plate',
+        'thermal:gold_plate',
+        'thermal:tin_plate',
+        'thermal:copper_plate'
+
+
 
     ];
 

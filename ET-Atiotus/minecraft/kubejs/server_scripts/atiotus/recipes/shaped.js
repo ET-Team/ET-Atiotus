@@ -24,6 +24,9 @@ onEvent('recipes', event => {
     craft1.forEach((recipe) => {event.shaped(recipe.output, recipe.recipe, recipe.input)});
     craft2.forEach((shapeless) => {event.shapeless(shapeless.output, shapeless.input)});
 
+  
+
+
 });
 
 
