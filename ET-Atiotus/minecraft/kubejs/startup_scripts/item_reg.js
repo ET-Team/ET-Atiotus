@@ -17,7 +17,27 @@ onEvent('item.registry', event => {
 
         'canned_biomass',
 
-        'can'
+        'can',
+
+        'diesel_generator_blueprint',
+        'arc_furnace_blueprint',
+        'crusher_blueprint',
+        'fermenter_blueprint',
+        'Squeezer_blueprint',
+        'bottling_blueprint',
+        'mixer_blueprint',
+        'coke_oven_blueprint',
+        'metal_press_blueprint',
+        'refinery_blueprint',
+        'sawnill_blueprint',
+        'item_silo_blueprint',
+        'fluid_tank_blueprint',
+        'crude_blast_furnace_blueprint',
+        'improved_blast_furnace_blueprint',
+        'assembler_blueprint',
+        'Automated_blueprint'
+
+
     ]
 
     plainItemNames.forEach((name) => {
