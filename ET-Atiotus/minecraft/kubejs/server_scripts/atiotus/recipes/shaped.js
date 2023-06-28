@@ -3,6 +3,13 @@ onEvent('recipes', event => {
 //有序
 
     const craft1 = [
+        {
+            output: '4x kubejs:can',
+            recipe: [' Q ','Q Q',' Q '],
+            input: {
+                Q:'thermal:tin_plate'   
+            }
+        }
 
     ];
 
