@@ -7,11 +7,16 @@ onEvent('item.registry', event => {
         "psionic_crystal_shard",
         "psionic_crystal",
         "psionic_crystal_cluster",
+
         'biomass_t0',
         'biomass_t1',
         'biomass_t2',
         'biomass_t3',
-        'biomass_t4'
+        'biomass_t4',
+
+        'carbonized_biomass',
+
+        'canned_biomass'
     ]
 
     plainItemNames.forEach((name) => {

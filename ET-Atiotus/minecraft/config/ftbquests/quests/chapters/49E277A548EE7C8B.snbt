@@ -263,7 +263,7 @@
 			}]
 		}
 		{
-			title: "液化仪"
+			title: "工业压榨机"
 			x: 2.0d
 			y: 10.0d
 			dependencies: ["5D68574678A10D67"]
@@ -285,6 +285,7 @@
 			}]
 		}
 		{
+			title: "灌装机"
 			x: 2.0d
 			y: 12.0d
 			dependencies: ["55BDCDB04F706208"]
